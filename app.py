@@ -5,7 +5,7 @@ from flask import request
 from flask_cors import CORS
 from flask import render_template  
 
-client = genai.Client(api_key='AIzaSyDj06YPTgg5BCr2EdKJBb_5TafppPffIqs')
+client = genai.Client(api_key='YOUR_APIKEY_HERE')
 
 app = Flask(__name__)
 CORS(app)
